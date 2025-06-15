@@ -18,7 +18,17 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Poppins', 'ui-sans-serif', 'system-ui'],
+			},
 			colors: {
+				brewbar: {
+					bg: '#FAF6F1',
+					brown: '#44291A',
+					cream: '#FFF5E1',
+					accent: '#E1B07E',
+					"deep-brown": "#332418",
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -67,6 +77,10 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			boxShadow: {
+				'bb-card': '0 4px 16px 0 rgba(39, 30, 20, 0.11)',
+				'bb-soft': '0 4px 16px 0 rgba(68, 41, 26, 0.07)',
 			},
 			keyframes: {
 				'accordion-down': {
